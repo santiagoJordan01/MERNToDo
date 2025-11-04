@@ -1,0 +1,64 @@
+# 📝 MERN ToDo
+
+Aplicación **ToDo List** desarrollada con el stack **MERN** (MongoDB, Express, React y Node.js).  
+Permite gestionar tareas de forma sencilla: crear, editar, marcar como completadas y eliminar tareas, con persistencia en una base de datos MongoDB.
+
+---
+
+## 🚀 Características principales
+
+- ✅ Crear nuevas tareas  
+- 📝 Editar tareas existentes  
+- ❌ Eliminar tareas  
+- ☑️ Marcar tareas como completadas  
+- 💾 Guardar los datos de manera persistente en MongoDB  
+- ⚡ Interfaz moderna e interactiva creada con React  
+
+---
+
+## 🧩 Tecnologías utilizadas
+
+| Tecnología | Descripción |
+|-------------|-------------|
+| **MongoDB** | Base de datos NoSQL utilizada para almacenar las tareas. |
+| **Express.js** | Framework de Node.js que gestiona las rutas y la API REST. |
+| **React.js** | Biblioteca de JavaScript para construir la interfaz de usuario. |
+| **Node.js** | Entorno de ejecución del backend. |
+| **Axios / Fetch** | Comunicación entre frontend y backend. |
+
+---
+
+## ⚙️ Instalación y configuración
+
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/santiagoJordan01/MERNToDo.git
+
+
+2️⃣ Instalar dependencias
+
+Instala las dependencias tanto del backend como del frontend:
+
+cd MERNToDo
+cd server
+npm install
+cd ../client
+npm install
+
+
+3️⃣ Configurar variables de entorno
+
+En la carpeta server, crea un archivo llamado .env con el siguiente contenido:
+
+PORT=5000
+MONGO_URI=tu_cadena_de_conexion_a_mongodb
+
+
+▶️ Ejecución del proyecto
+Iniciar el backend
+cd server
+npm run dev
+
+Iniciar el frontend
+cd client
+npm start
